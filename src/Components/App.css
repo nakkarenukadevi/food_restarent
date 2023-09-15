@@ -1,0 +1,163 @@
+.img {
+
+    width: 200px;
+    height: 150px;
+
+}
+.logo{
+    width:150px;
+    height:90px;
+    border-radius: 50%;
+
+}
+
+.header{
+    display: inline-flex; 
+ color:black;
+font-size: 20px;
+font-weight: 700;
+border: 1px solid black;
+
+}
+.header a {
+   
+    text-decoration: none;
+    color: black;
+
+}.header  li {
+    display: inline-flex;
+    justify-content:space-evenly;
+    align-items:center;
+    padding-right: 10px;
+}
+
+.header li a:hover {
+    display: block;
+    background-color: green;
+    color: aliceblue;
+    padding: 10px;
+
+}
+
+
+.menu-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid gainsboro;
+    background-color: aliceblue;
+    margin: 10px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    color: black;
+
+}
+
+.restarent-Name {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    border-bottom: 1px solid gainsboro;
+
+    margin: 10px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    color: black;
+
+}
+
+.online {
+    border: 1px solid white;
+    background-color: green;
+    padding: 10px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    position: relative;
+    top: 2px;
+    left: 7px;
+}
+
+.offline {
+    border: 1px solid white;
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+label {
+
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    z-index: 2;
+
+}
+
+.promo-card {
+    display: inline-flex;
+    flex-wrap: nowrap;
+
+}
+
+.promo-card a {
+    text-decoration: none;
+}
+
+.card:hover {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.cuisines {
+    width: 200px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 100px;
+
+}
+
+.rating {
+    color: darkgreen;
+    font-weight: 700;
+
+}
+
+
+
+.dropdown {
+    transform: rotate(90deg);
+    font-size: 30px;
+}
+
+.itemcard {
+    position: relative;
+    top: 0px;
+    right: 0px;
+    padding: 40px;
+}
+
+.item_available {
+    width: 100px;
+    height: 60px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.nav-items{
+   
+    display: flex;
+    justify-content:end;
+    align-items: center;
+}
